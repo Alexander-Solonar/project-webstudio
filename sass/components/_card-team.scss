@@ -1,0 +1,48 @@
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--secondary-background-color);
+}
+
+.card-team {
+    display: flex;
+    gap: 30px;
+}
+
+.card-team__item {
+    background-color: var(--primary-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card-team__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-team__desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-team__name {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-titel-color);
+}
+
+.card-team__position {
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
