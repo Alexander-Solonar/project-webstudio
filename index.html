@@ -159,15 +159,24 @@
           <h2 class="titel">Наша команда</h2>
           <ul class="card-team">
             <li class="card-team__item">
-              <img
-                srcset="
-                ./images/team/dem.jpg 1x, 
-                ./images/team/dem@2x.jpg 2x
-                "
-                src="./images/team/dem.jpg"
-                alt="Фото Ігоря Дем'яненко"
-                width="450"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/dem-450.jpg 1x, ./images/team/dem-900@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="450px"
+                />
+                <source
+                  srcset="./images/team/dem-354.jpg 1x, ./images/team/dem-708@2x.jpg 2x"
+                  media="(max-width: 1199px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/team/dem-270.jpg 1x, ./images/team/dem-540@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <img src="./images/team/dem-450.jpg" alt="Фото Ігоря Дем'яненко" width="450" />
+              </picture>
               <div class="card-team__desc">
                 <h3 class="card-team__name">Ігор Дем'яненко</h3>
                 <p class="card-team__position">Product Designer</p>
@@ -224,15 +233,24 @@
               </div>
             </li>
             <li class="card-team__item">
-              <img
-                srcset="
-                ./images/team/rep.jpg 1x, 
-                ./images/team/rep@2x.jpg 2x
-                "
-                src="./images/team/rep.jpg"
-                alt="Фото Ольги Рєпіной"
-                width="450"
-              />
+              <picture>
+                <source
+                  srcset="./images/team/rep-450.jpg 1x, ./images/team/rep-900@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="450px"
+                />
+                <source
+                  srcset="./images/team/rep-354.jpg 1x, ./images/team/rep-708@2x.jpg 2x"
+                  media="(max-width: 1199px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/team/rep-270.jpg 1x, ./images/team/rep-540@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <img src="./images/team/rep-450.jpg" alt="Фото Ольги Рєпіной" width="450" />
+              </picture>
               <div class="card-team__desc">
                 <h3 class="card-team__name">Ольга Рєпіна</h3>
                 <p class="card-team__position">Frontend Developer</p>
@@ -289,15 +307,24 @@
               </div>
             </li>
             <li class="card-team__item">
-              <img
-                srcset="
-                ./images/team/tar.jpg 1x, 
-                ./images/team/tar@2x.jpg 2x
-                "
-                src="./images/team/tar.jpg"
-                alt="Фото Миколи Тарасова"
-                width="450"
-              />
+            <picture>
+                <source
+                  srcset="./images/team/tar-450.jpg 1x, ./images/team/tar-900@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="450px"
+                />
+                <source
+                  srcset="./images/team/tar-354.jpg 1x, ./images/team/tar-708@2x.jpg 2x"
+                  media="(max-width: 1199px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/team/tar-270.jpg 1x, ./images/team/tar-540@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <img src="./images/team/tar-450.jpg" alt="Фото Миколи Тарасова" width="450" />
+              </picture>
               <div class="card-team__desc">
                 <h3 class="card-team__name">Микола Тарасов</h3>
                 <p class="card-team__position">Marketing</p>
@@ -354,15 +381,24 @@
               </div>
             </li>
             <li class="card-team__item">
-              <img
-                srcset="
-                ./images/team/erm.jpg 1x, 
-                ./images/team/erm@2x.jpg 2x
-                "
-                src="./images/team/erm.jpg"
-                alt="Фото Михайла Єрмакова"
-                width="450"
-              />
+            <picture>
+                <source
+                  srcset="./images/team/erm-450.jpg 1x, ./images/team/erm-900@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="450px"
+                />
+                <source
+                  srcset="./images/team/erm-354.jpg 1x, ./images/team/erm-708@2x.jpg 2x"
+                  media="(max-width: 1199px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/team/erm-270.jpg 1x, ./images/team/erm-540@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <img src="./images/team/erm-450.jpg" alt="Фото Михайла Єрмакова" width="450" />
+              </picture>
               <div class="card-team__desc">
                 <h3 class="card-team__name">Михайло Єрмаков</h3>
                 <p class="card-team__position">UI Designer</p>
@@ -418,6 +454,7 @@
                 </ul>
               </div>
             </li>
+            -->
           </ul>
         </div>
       </section>
