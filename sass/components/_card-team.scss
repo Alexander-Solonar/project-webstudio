@@ -23,9 +23,9 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  @media screen and (min-width: 480px) {
-    width: 450px;
-  }
+  // @media screen and (min-width: 480px) {
+  //   width: 450px;
+  // }
 
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
@@ -40,14 +40,6 @@
   @media screen and (min-width: 1200px) {
     width: 270px;
   }
-}
-
-.card-team__image {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card-team__desc {

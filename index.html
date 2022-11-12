@@ -58,14 +58,14 @@
     </header>
 
     <main>
-      <!-- <section class="section-hero">
+      <section class="section-hero">
         <div class="container">
           <h1 class="section-hero__titel">Ефективні рішення для вашого бізнесу</h1>
           <button class="button section-hero__button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
-      </section> -->
+      </section>
 
       <section class="section-advantage">
         <div class="container">
@@ -160,10 +160,13 @@
           <ul class="card-team">
             <li class="card-team__item">
               <img
-                class="card-team__image"
+                srcset="
+                ./images/team/dem.jpg 1x, 
+                ./images/team/dem@2x.jpg 2x
+                "
                 src="./images/team/dem.jpg"
                 alt="Фото Ігоря Дем'яненко"
-                width="270"
+                width="450"
               />
               <div class="card-team__desc">
                 <h3 class="card-team__name">Ігор Дем'яненко</h3>
@@ -222,10 +225,13 @@
             </li>
             <li class="card-team__item">
               <img
-                class="card-team__image"
+                srcset="
+                ./images/team/rep.jpg 1x, 
+                ./images/team/rep@2x.jpg 2x
+                "
                 src="./images/team/rep.jpg"
                 alt="Фото Ольги Рєпіной"
-                width="270"
+                width="450"
               />
               <div class="card-team__desc">
                 <h3 class="card-team__name">Ольга Рєпіна</h3>
@@ -284,10 +290,13 @@
             </li>
             <li class="card-team__item">
               <img
-                class="card-team__image"
+                srcset="
+                ./images/team/tar.jpg 1x, 
+                ./images/team/tar@2x.jpg 2x
+                "
                 src="./images/team/tar.jpg"
                 alt="Фото Миколи Тарасова"
-                width="270"
+                width="450"
               />
               <div class="card-team__desc">
                 <h3 class="card-team__name">Микола Тарасов</h3>
@@ -346,10 +355,13 @@
             </li>
             <li class="card-team__item">
               <img
-                class="card-team__image"
+                srcset="
+                ./images/team/erm.jpg 1x, 
+                ./images/team/erm@2x.jpg 2x
+                "
                 src="./images/team/erm.jpg"
                 alt="Фото Михайла Єрмакова"
-                width="270"
+                width="450"
               />
               <div class="card-team__desc">
                 <h3 class="card-team__name">Михайло Єрмаков</h3>
@@ -559,45 +571,54 @@
     </footer>
 
     <!-- mobail-menu -->
-        <div class="menu-container js-menu-container" id="mobile-menu">
-      <button
-        class="button-menu-slose js-close-menu"
-        type="button"
-        aria-label="Перемикач мобільного меню"
-      >
-        <svg width="40" height="40">
-          <use href="./images/icons.svg#icon-close-menu"></use>
-        </svg>
-      </button>
-      <ul class="mobile-nav">
-        <li class="mobile-nav__item">
-          <a class="mobile-nav__link mobile-nav__link--active" href="./index.html">Студія</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a class="mobile-nav__link" href="./portfolio.html">Портфоліо</a>
-        </li>
-        <li class="mobile-nav__item">
-          <a class="mobile-nav__link" href="#">Контакти</a>
-        </li>
-      </ul>
-      <ul class="mobile-contact">
-         <li class="mobile-contact__item">
-          <a class="mobile-contact__link--tel" href="tel:+380961111111">
-            <span>+38 096 111 11 11</span>
-          </a>
-        </li>
-        <li class="mobile-contact__item">
-          <a class="mobile-contact__link--email" href="mailto:info@devstudio.com">
-            <span>info@devstudio.com</span>
-          </a>
-        </li>
-      </ul>
-      <ul class="mobail-social">
-        <li><a class="mobail-social__link" href="">Instagram</a></li>
-        <li><a class="mobail-social__link" href="">Twitter</a></li>
-        <li><a class="mobail-social__link" href="">Facebook</a></li>
-        <li><a class="mobail-social__link" href="">LinkedIn</a></li>
-      </ul>
+    <div class="mobail-menu js-menu-container" id="mobile-menu">
+      <div class="mobail-menu__container">
+        <button
+          class="button-menu-slose js-close-menu"
+          type="button"
+          aria-label="Перемикач мобільного меню"
+        >
+          <svg width="40" height="40">
+            <use href="./images/icons.svg#icon-close-menu"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav">
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link mobile-nav__link--active" href="./index.html">Студія</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link" href="#">Контакти</a>
+          </li>
+        </ul>
+        <div>
+          <ul class="mobile-contact">
+            <li class="mobile-contact__item">
+              <a class="mobile-contact__link mobile-contact__link--tel" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+            <li class="mobile-contact__item">
+              <a
+                class="mobile-contact__link mobile-contact__link--email"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="mobail-social">
+            <li class="mobail-social__item">
+              <a class="mobail-social__link" href="">Instagram</a>
+            </li>
+            <li class="mobail-social__item"><a class="mobail-social__link" href="">Twitter</a></li>
+            <li class="mobail-social__item"><a class="mobail-social__link" href="">Facebook</a></li>
+            <li class="mobail-social__item"><a class="mobail-social__link" href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!-- modal -->

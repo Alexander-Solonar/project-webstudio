@@ -17,9 +17,7 @@
 }
 
 .section-advantage__item {
-  @media screen and (min-width: 480px) {
-    width: 450px;
-  }
+  max-width: 450px;
 
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
