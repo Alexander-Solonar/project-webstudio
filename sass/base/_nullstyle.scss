@@ -16,8 +16,11 @@ input:focus {
     outline: none;
 }
 
+
 img {
-    display: block;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
