@@ -32,7 +32,7 @@
   }
 }
 
-.mobail-menu {
+.mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -50,7 +50,7 @@
   }
 }
 
-.mobail-menu__container {
+.mobile-menu__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -125,7 +125,7 @@
   }
 }
 
-.mobail-social {
+.mobile-social {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -135,7 +135,7 @@
   }
 }
 
-  .mobail-social__item {
+  .mobile-social__item {
     position: relative;
 
     @media screen and (min-width: 480px) {
@@ -151,7 +151,7 @@
     }
   }
 
-  .mobail-social__link {
+  .mobile-social__link {
     font-size: 14px;
     line-height: 1.22;
     letter-spacing: 0.02em;
