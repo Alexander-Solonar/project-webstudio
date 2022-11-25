@@ -1508,7 +1508,7 @@ body .container {
   }
 }
 
-.button-menu-slose {
+.button-menu-close {
   position: absolute;
   top: 10px;
   right: 15px;
@@ -1518,7 +1518,7 @@ body .container {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-menu-slose:hover, .button-menu-slose:focus {
+.button-menu-close:hover, .button-menu-close:focus {
   fill: var(--accent-color);
 }
 
