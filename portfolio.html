@@ -64,24 +64,26 @@
           <h2 class="visually-hidden">Наші проєкти</h2>
           <ul class="filter">
             <li>
-              <button class="filter__button" type="button">Усі</button>
+              <button class="filter__button active" data-filter="all" type="button">Усі</button>
             </li>
             <li>
-              <button class="filter__button" type="button">Веб-сайти</button>
+              <button class="filter__button" data-filter="websites" type="button">Веб-сайти</button>
             </li>
             <li>
-              <button class="filter__button" type="button">Додатки</button>
+              <button class="filter__button" data-filter="apps" type="button">Додатки</button>
             </li>
             <li>
-              <button class="filter__button" type="button">Дизайн</button>
+              <button class="filter__button" data-filter="design" type="button">Дизайн</button>
             </li>
             <li>
-              <button class="filter__button" type="button">Маркетинг</button>
+              <button class="filter__button" data-filter="marketing" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
 
           <ul class="portfolio-card">
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="websites">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -123,7 +125,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="design">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -156,7 +158,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="apps">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -189,7 +191,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="marketing">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -231,7 +233,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="apps">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -264,7 +266,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="websites">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -297,7 +299,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="design">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -330,7 +332,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="marketing">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -363,7 +365,7 @@
                 </div>
               </a>
             </li>
-            <li class="portfolio-card__item">
+            <li class="portfolio-card__item" data-portfolio="apps">
               <a class="portfolio-card__link" href="#">
                 <div class="portfolio-card__overlay">
                   <picture>
@@ -554,8 +556,6 @@
         </div>
       </div>
     </div>
-
-    <script src="./js/mobile-menu.js"></script>
-    <script src="./js/modal.js"></script>
+    <script src="./js/filter.js"></script>
   </body>
 </html>
